@@ -19,5 +19,9 @@ def cek_tepat_waktu(estimasi_selesai, tanggal_target_selesai):
 estimasi_selesai = input("Masukkan estimasi waktu selesai proyek (YYYY-MM-DD): ")
 tanggal_target_selesai = input("Masukkan tanggal target selesai (YYYY-MM-DD): ")
 
+estimasi_selesai = datetime.strptime(estimasi_selesai, '%Y-%m-%d')
+tanggal_target_selesai = datetime.strptime(tanggal_target_selesai, '%Y-%m-%d')
+
+
 # Panggil fungsi cek_tepat_waktu
 cek_tepat_waktu(estimasi_selesai, tanggal_target_selesai)
