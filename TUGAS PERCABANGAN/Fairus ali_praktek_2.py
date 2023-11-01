@@ -2,7 +2,6 @@
 # absen = 07
 # kelas = XI-TKJ 1
 
-
 # Input estimasi waktu selesai proyek dan tanggal target selesai
 estimasi_selesai = input("Masukkan estimasi waktu selesai proyek (YYYY-MM-DD): ")
 tanggal_target_selesai = input("Masukkan tanggal target selesai (YYYY-MM-DD): ")
